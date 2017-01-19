@@ -1,0 +1,33 @@
+body {
+  min-width: 1200px;
+  background-color: #edeff1;
+}
+
+h1, h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+  font-family: "Roboto Slab", Arial, sans-serif;
+}
+
+p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.header {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: red; ffffff
+  display: flex;
+}
+
+.header__logo {
+
+}
+
+.header__nav {
+
+}
