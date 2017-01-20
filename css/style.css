@@ -1,6 +1,19 @@
+.container {
+  width: 100%;
+ max-width: 2000px;
+ margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   min-width: 1200px;
   background-color: #edeff1;
+  display: flex;
 }
 
 h1, h2 {
@@ -17,17 +30,34 @@ p {
   font-family: "Roboto", Arial, sans-serif;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .header {
-  width: 1200px;
-  margin: 0 auto;
   background-color: red; ffffff
-  display: flex;
 }
 
 .header__logo {
-
+  float:left;
 }
 
 .header__nav {
+  float: left;
+  list-style: none;
+}
+
+.header__nav li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.header__nav a {
+  text-decoration: none;
+display: block;
+padding: 1em;
+color: white;
 
 }
