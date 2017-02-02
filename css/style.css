@@ -1,4 +1,4 @@
-    .container {
+.container {
     min-width: 1200px;
     background-color: #edeff1;
     margin: 0 auto;
@@ -14,7 +14,8 @@ body {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-weight: 700;
     font-size: 30px;
     line-height: 24px;
@@ -43,7 +44,7 @@ p {
     list-style: none;
     text-align: center;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .header__nav a {
@@ -81,8 +82,7 @@ p {
     line-height: 48px;
     font-weight: 300;
     color: #ffffff;
-    margin: 0;
-    margin-bottom: 9px;
+    margin: 0 0 9px;
 }
 
 .intro__header p {
@@ -152,10 +152,7 @@ p {
 }
 
 .intro__btn {
-    padding-left: 62px;
-    padding-right: 59px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 16px 59px 16px 62px;
     border: 1px solid srga(255, 255, 255, 0.5);
     background-color: #ffffff;
     font-weight: 400;
@@ -194,10 +191,7 @@ p {
 }
 
 .news__item a {
-    padding-left: 55px;
-    padding-right: 55px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 55px;
     border: 1px solid srga(255, 255, 255, 0.5);
     background-color: #ffffff;
     font-weight: 300;
@@ -232,6 +226,40 @@ p {
     margin-bottom: 44px;
 }
 
+.email {
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-style: solid;
+    padding: 0.6em 35px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Roboto Slab", Arial, sans-serif;
+    color: #f3f4f6;
+    text-align: left;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sign {
+    position: relative;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-style: solid;
+    padding: 0.6em 73px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Roboto Slab", Arial, sans-serif;
+    color: #612316;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50px;
+    left: -35px;
+    cursor: pointer;
+}
+
 .features {
     padding-top: 67px;
 }
@@ -242,15 +270,15 @@ p {
 }
 
 .features__item:first-child {
-  margin-bottom: 52px;
+    margin-bottom: 52px;
 }
 
 .features__item:last-child {
-  margin-bottom: 87px;
+    margin-bottom: 87px;
 }
 
 .features__item:last-child .features__sq {
-  margin-right: 44px;
+    margin-right: 44px;
 }
 
 .features__desc {
@@ -277,10 +305,7 @@ p {
 }
 
 .features__btn {
-    padding-left: 76px;
-    padding-right: 69px;
-    padding-top: 18px;
-    padding-bottom: 16px;
+    padding: 18px 69px 16px 76px;
     border: 1px solid srga(255, 255, 255, 0.5);
     font-weight: 400;
     font-size: 18px;
@@ -289,6 +314,55 @@ p {
     text-decoration: none;
     color: #ffffff;
     border-radius: 40px;
+}
+
+.features__btn--orange {
+    background-color: #dd4b2b;
+}
+
+.features__btn--blue {
+    background-color: #4b4e73;
+}
+
+.pluses {
+    display: flex;
+    justify-content: center;
+    background-color: #d75d0e;
+    padding-top: 97px;
+}
+
+.pluses div {
+    width: 370px;
+    text-align: center;
+    margin-bottom: 78px;
+}
+
+.pluses p {
+    font-size: 18px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.first {
+    padding-left: 115px;
+    padding-right: 115px;
+}
+
+.sec {
+    padding-left: 115px;
+    padding-right: 115px;
+}
+
+.third {
+    padding-left: 115px;
+    padding-right: 115px;
+}
+
+.social {
+    background-image: url("../img/burger-background.jpg");
+    background-repeat: no-repeat;
+    height: 375px;
+    : 40px;
 }
 
 .features__btn--orange {
